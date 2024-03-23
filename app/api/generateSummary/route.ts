@@ -22,13 +22,8 @@ export async function POST(request: Request) {
                 },
             ],
         });
-
-               // Log the response to inspect its structure
-               console.log("OpenAI Response:", response);
-
-               // Extract the message content from the response
+        
                const responseData = response.choices[0].message.content;
-       
 
             return NextResponse.json(responseData);
     } catch (error) {
