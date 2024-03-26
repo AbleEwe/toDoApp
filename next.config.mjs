@@ -7,6 +7,11 @@ const nextConfig = {
               hostname: 'links.papareact.com',
               pathname: '**',
             },
+            {
+              protocol: 'https',
+              hostname: 'cloud.appwrite.io',
+              pathname: '**',
+            },
           ],
     }
 };

@@ -58,7 +58,7 @@ const Header = () => {
             <Avatar name="Diego Suarez" round color="#0055D1"/>
         </div>
       </nav>
-      <div className="flex items-center justify-center px-5 md:py-5">
+      <div className="flex items-center justify-center px-5 md:py-5 py-8">
         <p className="flex items-center text-sm font-light p-5 shadow-xl rounded-xl w-fit bg-white italic max-w-3xl text-[#0055D1]">
           <UserCircleIcon className={`inline-block size-10 text-[#0055D1] mr-1 ${loading && "animate-spin"}`}/>
           {suggestion && !loading
