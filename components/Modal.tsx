@@ -39,7 +39,8 @@ function Modal() {
       as={Fragment}
     >
       <Dialog 
-      onSubmit={e => handleSubmit}
+      as='form'
+      onSubmit={handleSubmit}
       className="relative z-10" onClose={closeModal}>
         <Transition.Child 
             enter="transition duration-100 ease-out"

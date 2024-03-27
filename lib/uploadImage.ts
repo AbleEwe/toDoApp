@@ -11,4 +11,4 @@ const uploadImage = async (file: File) => {
     return fileUploaded;
 }
 
-export default uploadImage;
+export default uploadImage; 
